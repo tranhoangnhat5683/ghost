@@ -13,6 +13,7 @@ npm install
 cp core/server/config/env/config.development.template.json core/server/config/env/config.development.json
 vi core/server/config/env/config.development.json
 cp core/server/config/env/config.production.template.json core/server/config/env/config.production.json
+vi core/server/config/env/config.production.json
 node index.php
 ```
 #Setup env
