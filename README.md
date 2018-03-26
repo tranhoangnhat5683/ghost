@@ -14,6 +14,7 @@ cp core/server/config/env/config.development.template.json core/server/config/en
 vi core/server/config/env/config.development.json
 cp core/server/config/env/config.production.template.json core/server/config/env/config.production.json
 vi core/server/config/env/config.production.json
+knex-migrator init
 node index.php
 ```
 #Setup env
