@@ -1,0 +1,28 @@
+{
+    "url": "http://localhost:2368",
+    "database": {
+        "client": "mysql",
+        "connection": {
+            "user"     : "root",
+            "password" : "123456",
+            "database" : "ghost_prod"
+        },
+        "debug": false
+    },
+    "paths": {
+        "contentPath": "content/"
+    },
+    "privacy": {
+        "useRpcPing": false,
+        "useUpdateCheck": true
+    },
+    "useMinFiles": false,
+    "caching": {
+        "theme": {
+            "maxAge": 0
+        },
+        "admin": {
+            "maxAge": 0
+        }
+    }
+}
