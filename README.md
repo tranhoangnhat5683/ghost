@@ -18,9 +18,8 @@ knex-migrator init
 node index.php
 ```
 #Setup env
+Chose one env.
 ```bash
 export NODE_ENV=development
 export NODE_ENV=production
-export NODE_ENV=testing
-export NODE_ENV=testing-mysql
 ```
