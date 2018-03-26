@@ -1,3 +1,4 @@
 node_modules
 core/server/config/env/config.development.json
+core/server/config/env/config.production.json
 .idea
