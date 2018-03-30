@@ -10,9 +10,9 @@ git clone git@github.com:tranhoangnhat5683/ghost.git
 ```bash
 cd ghost
 npm install
-cp core/server/config/env/config.development.template.json core/server/config/env/config.development.json
+cp core/server/config/env/template.config.development.json core/server/config/env/config.development.json
 vi core/server/config/env/config.development.json
-cp core/server/config/env/config.production.template.json core/server/config/env/config.production.json
+cp core/server/config/env/template.config.production.json core/server/config/env/config.production.json
 vi core/server/config/env/config.production.json
 knex-migrator init
 node index.php
